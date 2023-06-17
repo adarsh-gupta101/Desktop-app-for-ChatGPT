@@ -1,0 +1,22 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "\"# Desktop-app-for-ChatGPT\"",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^25.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-packager . --platform=win32 --arch=x64 --out=dist/"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^17.1.1"
+  }
+}
